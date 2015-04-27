@@ -20,6 +20,9 @@
 		78962DA21AEDDD5C00981CCB /* FouthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DA11AEDDD5C00981CCB /* FouthViewController.m */; };
 		78962DA61AEDDEB800981CCB /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DA51AEDDEB800981CCB /* BaseNavigationController.m */; };
 		78962DA91AEDE1DD00981CCB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DA81AEDE1DD00981CCB /* BaseViewController.m */; };
+		78962DBF1AEDF5F100981CCB /* UINavigationController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DBA1AEDF5F100981CCB /* UINavigationController+Rotate.m */; };
+		78962DC01AEDF5F100981CCB /* UITabBarController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DBC1AEDF5F100981CCB /* UITabBarController+Rotate.m */; };
+		78962DC11AEDF5F100981CCB /* UIViewController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DBE1AEDF5F100981CCB /* UIViewController+Rotate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,12 @@
 		78962DA51AEDDEB800981CCB /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		78962DA71AEDE1DD00981CCB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		78962DA81AEDE1DD00981CCB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		78962DB91AEDF5F100981CCB /* UINavigationController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotate.h"; sourceTree = "<group>"; };
+		78962DBA1AEDF5F100981CCB /* UINavigationController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotate.m"; sourceTree = "<group>"; };
+		78962DBB1AEDF5F100981CCB /* UITabBarController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Rotate.h"; sourceTree = "<group>"; };
+		78962DBC1AEDF5F100981CCB /* UITabBarController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Rotate.m"; sourceTree = "<group>"; };
+		78962DBD1AEDF5F100981CCB /* UIViewController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Rotate.h"; sourceTree = "<group>"; };
+		78962DBE1AEDF5F100981CCB /* UIViewController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Rotate.m"; sourceTree = "<group>"; };
 		7D59D90A006CDA2DF9A01E98 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CCE790B8606D5BA3237DA24B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F74FF20A5B39AF30C46443B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +131,7 @@
 		78962D681AEDCDBD00981CCB /* SpeechProject */ = {
 			isa = PBXGroup;
 			children = (
+				78962DC21AEDF5FD00981CCB /* Categroy */,
 				78962D6D1AEDCDBD00981CCB /* AppDelegate.h */,
 				78962D6E1AEDCDBD00981CCB /* AppDelegate.m */,
 				78962DA31AEDDE8800981CCB /* BaseviewController */,
@@ -226,6 +236,19 @@
 				78962DA11AEDDD5C00981CCB /* FouthViewController.m */,
 			);
 			name = Fouth;
+			sourceTree = "<group>";
+		};
+		78962DC21AEDF5FD00981CCB /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				78962DB91AEDF5F100981CCB /* UINavigationController+Rotate.h */,
+				78962DBA1AEDF5F100981CCB /* UINavigationController+Rotate.m */,
+				78962DBB1AEDF5F100981CCB /* UITabBarController+Rotate.h */,
+				78962DBC1AEDF5F100981CCB /* UITabBarController+Rotate.m */,
+				78962DBD1AEDF5F100981CCB /* UIViewController+Rotate.h */,
+				78962DBE1AEDF5F100981CCB /* UIViewController+Rotate.m */,
+			);
+			name = Categroy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,10 +385,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78962DC01AEDF5F100981CCB /* UITabBarController+Rotate.m in Sources */,
 				78962D9C1AEDDD4800981CCB /* SecondViewController.m in Sources */,
 				78962DA91AEDE1DD00981CCB /* BaseViewController.m in Sources */,
+				78962DC11AEDF5F100981CCB /* UIViewController+Rotate.m in Sources */,
 				78962D6F1AEDCDBD00981CCB /* AppDelegate.m in Sources */,
 				78962D9F1AEDDD5300981CCB /* ThirdViewController.m in Sources */,
+				78962DBF1AEDF5F100981CCB /* UINavigationController+Rotate.m in Sources */,
 				78962D6C1AEDCDBD00981CCB /* main.m in Sources */,
 				78962DA61AEDDEB800981CCB /* BaseNavigationController.m in Sources */,
 				78962D951AEDDB0D00981CCB /* RootTabBarController.m in Sources */,
