@@ -13,12 +13,25 @@
 @end
 
 @implementation FirstViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor redColor];
+    //create textField
+    
+    
+}
+
+- (NSString *)setNavTitle{
+    return @"testKeyboardManager";
+}
+
+- (void)push:(UIButton *)push{
+
+}
+
+- (NSString *)setPushButtonTitle{
+    return @"basic usage";
 }
 
 - (void)didReceiveMemoryWarning {

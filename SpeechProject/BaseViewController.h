@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BaseViewController : UIViewController
-
+- (NSString *)setNavTitle;
+- (NSString *)setPushButtonTitle;
+- (void)push:(UIButton *)push;
 @end
