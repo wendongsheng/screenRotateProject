@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  BaseViewController.h
 //  SpeechProject
 //
 //  Created by wendongsheng on 15/4/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController
+@interface BaseViewController : UIViewController
 
 @end

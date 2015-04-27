@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "RootViewController.h"
+#import "FirstViewController.h"
+#import "RootTabBarController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -21,11 +23,30 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    self.window.rootViewController = [RootViewController new];
+    [self setRootViewController];
     
+    //设置IQKeyboardManager
+    [self setKeyboardManager];
+    
+    //设置MagicalRecord
+    [self setMagicalRecord];
     
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)setRootViewController{
+    RootTabBarController *rootVC = [[RootTabBarController alloc] init];
+    self.window.rootViewController = rootVC;
+}
+
+- (void)setKeyboardManager{
+    
+}
+
+- (void)setMagicalRecord
+{
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

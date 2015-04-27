@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 etiantian. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "FirstViewController.h"
 
-@interface RootViewController ()
+@interface FirstViewController ()
 
 @end
 
-@implementation RootViewController
+@implementation FirstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

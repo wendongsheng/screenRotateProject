@@ -12,7 +12,14 @@
 		78962D6F1AEDCDBD00981CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D6E1AEDCDBD00981CCB /* AppDelegate.m */; };
 		78962D771AEDCDBD00981CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78962D761AEDCDBD00981CCB /* Images.xcassets */; };
 		78962D861AEDCDBD00981CCB /* SpeechProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D851AEDCDBD00981CCB /* SpeechProjectTests.m */; };
-		78962D911AEDD66400981CCB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D901AEDD66400981CCB /* RootViewController.m */; };
+		78962D911AEDD66400981CCB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D901AEDD66400981CCB /* FirstViewController.m */; };
+		78962D951AEDDB0D00981CCB /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D941AEDDB0D00981CCB /* RootTabBarController.m */; };
+		78962D991AEDDCB700981CCB /* RootTabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78962D981AEDDCB700981CCB /* RootTabBar.plist */; };
+		78962D9C1AEDDD4800981CCB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D9B1AEDDD4800981CCB /* SecondViewController.m */; };
+		78962D9F1AEDDD5300981CCB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D9E1AEDDD5300981CCB /* ThirdViewController.m */; };
+		78962DA21AEDDD5C00981CCB /* FouthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DA11AEDDD5C00981CCB /* FouthViewController.m */; };
+		78962DA61AEDDEB800981CCB /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DA51AEDDEB800981CCB /* BaseNavigationController.m */; };
+		78962DA91AEDE1DD00981CCB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962DA81AEDE1DD00981CCB /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,22 @@
 		78962D7F1AEDCDBD00981CCB /* SpeechProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78962D841AEDCDBD00981CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78962D851AEDCDBD00981CCB /* SpeechProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechProjectTests.m; sourceTree = "<group>"; };
-		78962D8F1AEDD66400981CCB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		78962D901AEDD66400981CCB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		78962D8F1AEDD66400981CCB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		78962D901AEDD66400981CCB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		78962D921AEDD70100981CCB /* SpeechProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechProject.pch; sourceTree = SOURCE_ROOT; };
+		78962D931AEDDB0D00981CCB /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		78962D941AEDDB0D00981CCB /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		78962D981AEDDCB700981CCB /* RootTabBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RootTabBar.plist; sourceTree = "<group>"; };
+		78962D9A1AEDDD4800981CCB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		78962D9B1AEDDD4800981CCB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		78962D9D1AEDDD5300981CCB /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		78962D9E1AEDDD5300981CCB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		78962DA01AEDDD5C00981CCB /* FouthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FouthViewController.h; sourceTree = "<group>"; };
+		78962DA11AEDDD5C00981CCB /* FouthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FouthViewController.m; sourceTree = "<group>"; };
+		78962DA41AEDDEB800981CCB /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		78962DA51AEDDEB800981CCB /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		78962DA71AEDE1DD00981CCB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		78962DA81AEDE1DD00981CCB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		7D59D90A006CDA2DF9A01E98 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CCE790B8606D5BA3237DA24B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F74FF20A5B39AF30C46443B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,8 +124,9 @@
 			children = (
 				78962D6D1AEDCDBD00981CCB /* AppDelegate.h */,
 				78962D6E1AEDCDBD00981CCB /* AppDelegate.m */,
-				78962D8F1AEDD66400981CCB /* RootViewController.h */,
-				78962D901AEDD66400981CCB /* RootViewController.m */,
+				78962DA31AEDDE8800981CCB /* BaseviewController */,
+				78962D961AEDDC6200981CCB /* RootViewController */,
+				78962D971AEDDC7800981CCB /* ViewControllers */,
 				78962D761AEDCDBD00981CCB /* Images.xcassets */,
 				78962D691AEDCDBD00981CCB /* Supporting Files */,
 			);
@@ -137,6 +158,42 @@
 				78962D841AEDCDBD00981CCB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78962D961AEDDC6200981CCB /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78962D931AEDDB0D00981CCB /* RootTabBarController.h */,
+				78962D941AEDDB0D00981CCB /* RootTabBarController.m */,
+				78962D981AEDDCB700981CCB /* RootTabBar.plist */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		78962D971AEDDC7800981CCB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				78962D8F1AEDD66400981CCB /* FirstViewController.h */,
+				78962D901AEDD66400981CCB /* FirstViewController.m */,
+				78962D9A1AEDDD4800981CCB /* SecondViewController.h */,
+				78962D9B1AEDDD4800981CCB /* SecondViewController.m */,
+				78962D9D1AEDDD5300981CCB /* ThirdViewController.h */,
+				78962D9E1AEDDD5300981CCB /* ThirdViewController.m */,
+				78962DA01AEDDD5C00981CCB /* FouthViewController.h */,
+				78962DA11AEDDD5C00981CCB /* FouthViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		78962DA31AEDDE8800981CCB /* BaseviewController */ = {
+			isa = PBXGroup;
+			children = (
+				78962DA41AEDDEB800981CCB /* BaseNavigationController.h */,
+				78962DA51AEDDEB800981CCB /* BaseNavigationController.m */,
+				78962DA71AEDE1DD00981CCB /* BaseViewController.h */,
+				78962DA81AEDE1DD00981CCB /* BaseViewController.m */,
+			);
+			name = BaseviewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78962D991AEDDCB700981CCB /* RootTabBar.plist in Resources */,
 				78962D771AEDCDBD00981CCB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78962D9C1AEDDD4800981CCB /* SecondViewController.m in Sources */,
+				78962DA91AEDE1DD00981CCB /* BaseViewController.m in Sources */,
 				78962D6F1AEDCDBD00981CCB /* AppDelegate.m in Sources */,
+				78962D9F1AEDDD5300981CCB /* ThirdViewController.m in Sources */,
 				78962D6C1AEDCDBD00981CCB /* main.m in Sources */,
-				78962D911AEDD66400981CCB /* RootViewController.m in Sources */,
+				78962DA61AEDDEB800981CCB /* BaseNavigationController.m in Sources */,
+				78962D951AEDDB0D00981CCB /* RootTabBarController.m in Sources */,
+				78962DA21AEDDD5C00981CCB /* FouthViewController.m in Sources */,
+				78962D911AEDD66400981CCB /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
