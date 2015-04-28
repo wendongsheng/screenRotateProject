@@ -9,7 +9,6 @@
 #import "BaseViewController.h"
 
 @interface BaseViewController ()
-
 @end
 
 @implementation BaseViewController
@@ -27,7 +26,8 @@
     self.navigationItem.titleView = titleLabel;
     
     //push
-    UIButton *pushButton = [[UIButton alloc] initWithFrame:CGRectMake(50, self.view.frame.size.height-50-49, self.view.frame.size.width-2*50, 30)];
+    UIButton *pushButton = [[UIButton alloc] init];
+    self.pushButton = pushButton;
     [pushButton setTitle:[self setPushButtonTitle] forState:UIControlStateNormal];
     pushButton.layer.borderColor = [UIColor whiteColor].CGColor;
     [pushButton addTarget:self action:@selector(push:) forControlEvents:UIControlEventTouchUpInside];
@@ -35,6 +35,13 @@
     pushButton.layer.borderWidth = 1.0;
     pushButton.layer.cornerRadius = 5;
     [self.view addSubview:pushButton];
+    
+    [pushButton makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.view.left).offset(10);
+        make.right.equalTo(self.view.right).offset(-10);
+        make.bottom.equalTo(self.view.bottom).offset(-10);
+        make.width.equalTo (30);
+    }];
 }
 
 - (NSString *)setNavTitle{
@@ -55,25 +62,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)shouldAutorotate
-{
-    return NO;
+
+#ifdef __IPHONE_7_0
+- (UIRectEdge)edgesForExtendedLayout {
+    return UIRectEdgeNone;
 }
+#endif
 
-- (NSUInteger)supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationMaskPortrait;
-}
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

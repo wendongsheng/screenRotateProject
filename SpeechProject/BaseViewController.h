@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface BaseViewController : UIViewController
+
+@property (nonatomic, strong) UIButton *pushButton;
+
 - (NSString *)setNavTitle;
 - (NSString *)setPushButtonTitle;
 - (void)push:(UIButton *)push;
