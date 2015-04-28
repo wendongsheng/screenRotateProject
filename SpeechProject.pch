@@ -17,5 +17,6 @@
 
 #import <KeyboardManager.h>
 #import <CoreData+MagicalRecord.h>
+#import <Masonry.h>
 
 #endif

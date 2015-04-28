@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>437A9FC8-D875-4FCD-8499-898021FD7D94</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpeechProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE368B7B00491249BE131D09AD8AE9FB24AA9D8F</key>
+		<string>https://github.com/wendongsheng/screenRotateProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpeechProject.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE368B7B00491249BE131D09AD8AE9FB24AA9D8F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wendongsheng/screenRotateProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE368B7B00491249BE131D09AD8AE9FB24AA9D8F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE368B7B00491249BE131D09AD8AE9FB24AA9D8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SpeechProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
