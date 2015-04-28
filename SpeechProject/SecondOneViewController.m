@@ -7,6 +7,7 @@
 //
 
 #import "SecondOneViewController.h"
+#import "SecondTwoViewController.h"
 
 @interface SecondOneViewController ()
 
@@ -27,14 +28,33 @@
     [self.view addSubview:view2];
     
     [view1 makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.right.equalTo(self.view).offset(10);
+        make.left.top.equalTo(self.view).offset(10);
+        make.right.equalTo(self.view).offset(-10);
         make.bottom.equalTo(self.pushButton.top).offset(-10);
+    }];
+    
+    [view2 makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+        make.size.equalTo(CGSizeMake(200, 100));
     }];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSString *)setNavTitle{
+    return @"The base user";
+}
+
+- (NSString *)setPushButtonTitle{
+    return @"Masonry used";
+}
+
+- (void)push:(UIButton *)push{
+    SecondTwoViewController *two = [SecondTwoViewController new];
+    [self.navigationController pushViewController:two animated:YES];
 }
 
 /*

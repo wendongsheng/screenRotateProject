@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     UIView *view = UIView.new;
     view.backgroundColor = [UIColor yellowColor];
@@ -28,11 +27,15 @@
         make.right.equalTo(-10);
         make.bottom.equalTo(self.pushButton.top).offset(-10);
     }];
-    
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    self.tabBarController.tabBar.hidden = NO;
 }
 
 - (NSString *)setNavTitle{
-    return @"testMagicalRecord";
+    return @"testMasonry";
 }
 
 - (NSString *)setPushButtonTitle{

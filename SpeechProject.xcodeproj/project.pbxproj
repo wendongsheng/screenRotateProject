@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		674544A182142091D9BDA856 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F74FF20A5B39AF30C46443B8 /* libPods.a */; };
 		786F9E021AEF36DB0043252A /* SecondOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786F9E011AEF36DB0043252A /* SecondOneViewController.m */; };
+		786F9E051AEF5B240043252A /* SecondTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786F9E041AEF5B240043252A /* SecondTwoViewController.m */; };
 		78962D6C1AEDCDBD00981CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D6B1AEDCDBD00981CCB /* main.m */; };
 		78962D6F1AEDCDBD00981CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78962D6E1AEDCDBD00981CCB /* AppDelegate.m */; };
 		78962D771AEDCDBD00981CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78962D761AEDCDBD00981CCB /* Images.xcassets */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		786F9E001AEF36DB0043252A /* SecondOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondOneViewController.h; sourceTree = "<group>"; };
 		786F9E011AEF36DB0043252A /* SecondOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondOneViewController.m; sourceTree = "<group>"; };
+		786F9E031AEF5B240043252A /* SecondTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTwoViewController.h; sourceTree = "<group>"; };
+		786F9E041AEF5B240043252A /* SecondTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTwoViewController.m; sourceTree = "<group>"; };
 		78962D661AEDCDBD00981CCB /* SpeechProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78962D6A1AEDCDBD00981CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78962D6B1AEDCDBD00981CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 				78962D9B1AEDDD4800981CCB /* SecondViewController.m */,
 				786F9E001AEF36DB0043252A /* SecondOneViewController.h */,
 				786F9E011AEF36DB0043252A /* SecondOneViewController.m */,
+				786F9E031AEF5B240043252A /* SecondTwoViewController.h */,
+				786F9E041AEF5B240043252A /* SecondTwoViewController.m */,
 			);
 			name = Second;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 				78962DA91AEDE1DD00981CCB /* BaseViewController.m in Sources */,
 				78962DC11AEDF5F100981CCB /* UIViewController+Rotate.m in Sources */,
 				786F9E021AEF36DB0043252A /* SecondOneViewController.m in Sources */,
+				786F9E051AEF5B240043252A /* SecondTwoViewController.m in Sources */,
 				78962D6F1AEDCDBD00981CCB /* AppDelegate.m in Sources */,
 				78962D9F1AEDDD5300981CCB /* ThirdViewController.m in Sources */,
 				78962DBF1AEDF5F100981CCB /* UINavigationController+Rotate.m in Sources */,

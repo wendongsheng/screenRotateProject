@@ -24,7 +24,6 @@
     titleLabel.text = [self setNavTitle];
     titleLabel.textAlignment = NSTextAlignmentCenter;
     self.navigationItem.titleView = titleLabel;
-    
     //push
     UIButton *pushButton = [[UIButton alloc] init];
     self.pushButton = pushButton;
@@ -40,7 +39,7 @@
         make.left.equalTo(self.view.left).offset(10);
         make.right.equalTo(self.view.right).offset(-10);
         make.bottom.equalTo(self.view.bottom).offset(-10);
-        make.width.equalTo (30);
+        make.height.equalTo (30);
     }];
 }
 
